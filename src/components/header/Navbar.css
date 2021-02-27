@@ -1,0 +1,39 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 2rem;
+    overflow: hidden;
+    z-index: 1;
+    width: 97%;
+    margin: auto;
+    top: 0;
+    border-bottom: solid 1px var(--primary-color);
+}
+
+.flex-items{
+    display: inline-block;
+}
+
+.flex{
+    margin-left: 15px;
+}
+
+input {
+    width: 170px;
+    min-height: 30px;
+}
+
+.loginButton {
+    margin-left:20px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #A62A2A;
+    border: 4px solid #A62A2A;
+    border-radius:8px;
+    background-color: #ff9933;
+    position:relative;
+    top:2px;
+}

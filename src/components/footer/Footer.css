@@ -1,0 +1,42 @@
+.footer{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 13px;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+    bottom: 0;
+    border-bottom: solid 1px var(--primary-color);
+}
+
+.dot 
+{
+    display:inline-block;
+    font-size: 70px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 15px;
+    margin-left: 45px;
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.dots {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.dot:first-child {
+    margin-left: 0px;
+}
+
+.dot:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    cursor: pointer;
+}

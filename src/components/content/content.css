@@ -1,0 +1,71 @@
+.slider{
+    width: 60%;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+
+.slide{
+    text-align: center;
+    margin:30px;
+    position: relative;
+    display:block;
+    min-height: 40vh;
+    background-color: white;
+    padding:10px;
+    box-shadow: 2px 2px 5px 5px white;
+}
+
+.slideImage{
+    height: 40%;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.slideHeader{
+    height: 30%;
+    padding-top: 10px;
+    color: black;
+    font-size: 26px;
+}
+
+.slideReview{
+    height: 30%
+}
+
+.recipeWrapper{
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    padding:10px;
+    box-shadow: 2px 2px 5px 5px white;
+    position: relative;
+    display:block;
+    min-height: 40vh;
+    width: 50%
+}
+
+.gridContainer{
+    padding: 50px 50px 50px 50px;
+}
+
+.gridContent{
+    background-color: white;
+    padding:10px;
+    box-shadow: 2px 2px 5px 5px white;
+    color: black;
+    text-align: left;
+}
+
+.commentTextarea
+{
+    width: 100%
+}
+
+.buttonSubmit{
+    padding-top: 10px;
+}
